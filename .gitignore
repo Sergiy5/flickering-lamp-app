@@ -1,0 +1,92 @@
+# ========================================
+# Node
+# ========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnp.*
+.npm
+
+# Optional caches
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# ========================================
+# Environment
+# ========================================
+.env
+.env.*.local
+
+# ========================================
+# React Native
+# ========================================
+
+# Metro bundler
+.bundle
+.metro-health-check*
+
+# Android
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+*.apk
+*.aab
+.cxx/
+*.keystore
+!debug.keystore
+
+# Android Studio
+.idea/
+*.iml
+
+# iOS / Xcode
+ios/build/
+ios/Pods/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Watchman
+.watchmanconfig
+
+# Bundler artifacts
+*.jsbundle
+
+# Optional IDEs
+.vscode/
+.vscode-test/
