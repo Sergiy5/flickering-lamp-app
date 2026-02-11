@@ -9,8 +9,8 @@
     "start": "react-native start",
     "test": "jest",
     "clean": "react-native-clean-project",
-    "apk": "cd android && ./gradlew assembleRelease",
-    "aab": "cd android && ./gradlew bundleRelease"
+    "apk": "cd android && gradlew.bat assembleRelease",
+    "aab": "cd android && gradlew.bat bundleRelease"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
